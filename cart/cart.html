@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="cart.css">
+        <link href="../bootstrap/bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet" >
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+<body>
+       <!--start header-->
+    <header>
+        <div class="container">
+           <div class="row">
+            <div class="first col-md-5">
+                <i class="fas fa-bullhorn"></i>
+                <span>WAHTEVER YOU HAVE GOT IN MIND .. WE HAVE GOT ISIDE</span>
+            </div>
+            <div class="second col-md-7">
+               <div class="ico">
+                   <i class="fab fa-app-store-ios"></i>
+                <span>APP STORE</span>
+               </div>  
+                <div class="ico">
+                   <i class="fab fa-google-play"></i>
+                <span>APP STORE</span>
+               </div> 
+               <div class="ico">
+                   <ul class="list-unstyled">
+                       <li class="men-1">ENG <i class="fas fa-angle-down"></i>
+                       <ul class="list-unstyled sub-1">
+                          <li>English</li>
+                           <li>Arabic</li>
+                           
+                       </ul>
+                       
+                       </li>
+                       <li class="men-1">USD <i class="fas fa-angle-down"></i>
+                       <ul class="list-unstyled sub-2 ">
+                           <li>USD</li>
+                           <li>EUR</li>
+                       </ul>
+                       </li>
+                    
+                   </ul>
+               </div>             
+            </div>
+           </div>
+        </div>
+    </header>
+    
+    <!--End header-->
+    <!--start logo-->
+    <div class="cart">
+        <div class="container">
+            <div class="row">
+                <div class="logo col-md-7">
+                    <img src="img.1.png" alt="">
+                    <div class="search">
+                        <select>
+                            <option value="product">product</option>
+                            <option value="weso">weso</option>
+                            <option value="health">health</option>
+                            <option value="ahmed">ahmed</option>
+                            <option value="mohamed">mohamed</option>
+                        </select>
+                        <input type="search" id="sear" placeholder="Enter Your Keyword..">
+                        <i class="fas fa-search"></i>
+                    </div>
+                </div>
+                <div class="account col-md-5 ">
+                    
+                    <ul class="list-unstyled">
+                        <li class="men-1"> <i class="fas fa-user icon"></i>MY ACCOUNT <i class="fas fa-angle-down ang"></i>
+                           <span>LOGIN/JOIN</span>
+                            <ul class="list-unstyled">
+                                
+                            <li><i class="fas fa-sign-in-alt"></i><a href="../my account/my account/account.html">MY
+ACCOUNT</a></li>
+                                <li><i class="fas fa-sign-in-alt"></i><a href="../my account/my wish/wish.html">My
+WISHLIST</a></li>
+                                <li><i class="fas fa-sign-in-alt"></i><a href="../my account/log in/log.html">LOGIN</a> </li>
+                                <li><i class="fas fa-sign-in-alt"></i><a href="../my account/create new/create.html">CREAT AN ACCOUNT</a></li>
+                            </ul>
+                        </li>
+                    
+               
+                        <li class="men-1"> <i class="fas fa-user icon"> <span id="cart" >0</span></i> MY CART <i class="fas fa-angle-down ang"></i>
+                           <span id="price">350 EGP</span>
+                            <ul class="list-unstyled none">
+                               <li class="my-cart">
+                                   <div class="rahma-m">
+                                       <div class="image-s">
+                                           <img src="shoes.1.jpg" alt="">
+                                       </div>
+                                       <div>
+                                           <h6>32.50 EGP</h6>
+                                           <span>Product Name</span>
+                                       </div>
+                                   </div> 
+                                   <div>
+                                            <i class="far fa-trash-alt"></i>  
+                                   </div>                                                            
+                               </li>
+                                   <li class="my-cart">
+                                   <div class="rahma-m">
+                                       <div class="image-s">
+                                           <img src="shoes.1.jpg" alt="">
+                                       </div>
+                                       <div>
+                                           <h6>32.50 EGP</h6>
+                                           <span>Product Name</span>
+                                       </div>
+                                   </div> 
+                                   <div>
+                                            <i class="far fa-trash-alt"></i>  
+                                   </div>                                                            
+                               </li>
+                               <li class="view-cart">
+                                   <span class="first"><a href="cart.html">VIEW CART</a></span>
+                                   <span class="second"><a href="#">CHECK OUT</a></span>
+                               </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <!--End logo-->
+
+    <!--start navbar-->
+    <nav>
+        <div class="container">
+            <div class="row">
+               <div class="fola">
+                <div class="categ">
+                    <span>CATEGORY</span>
+                    <i class="fas fa-bars"></i>
+                </div>
+                      
+                
+                <div class="menu">
+                   
+                      <input type="checkbox" id="check">
+    <label for="check" class="check-btn">
+        <i class="fas fa-bars"></i>
+    </label>
+                    <ul class="list-unstyled">
+                        <li><a href="../home.html">Home</a></li>
+                        <li><a href="../shop/shop.html">shop</a></li>
+                        <li class="li"><a href="#">Women</a> <i class="fas fa-angle-down"></i>
+                        <div class="sub-menu">
+                           <div class="weso">
+                            <div class="max">
+                               <div class="list">
+                                     <h5>CATEGORIES</h5>
+                                     <ul class="list-unstyled">
+                                         <li><a href="#">CLOTHS &amp; TROUSERS</a></li>
+                                         <li><a href="#">JEWELRY &amp; WATCHES</a></li>
+                                         <li><a href="#">PHONES &amp; ACCESORIES</a></li>
+                                         <li><a href="#">JEWELRY &amp; WATCHES</a></li>
+                                         <li><a href="#">BAGS &amp; SHOES</a></li>
+                                     </ul>
+                               </div>  
+                                <div class="list">
+                                     <h5>CATEGORIES</h5>
+                                     <ul class="list-unstyled">
+                                         <li><a href="#">CLOTHS &amp; TROUSERS</a></li>
+                                         <li><a href="#">JEWELRY &amp; WATCHES</a></li>
+                                         <li><a href="#">PHONES &amp; ACCESORIES</a></li>
+                                         <li><a href="#">JEWELRY &amp; WATCHES</a></li>
+                                         <li><a href="#">BAGS &amp; SHOES</a></li>
+                                     </ul>
+                               </div> 
+                                <div class="list">
+                                     <h5>CATEGORIES</h5>
+                                     <ul class="list-unstyled">
+                                         <li><a href="#">CLOTHS &amp; TROUSERS</a></li>
+                                         <li><a href="#">JEWELRY &amp; WATCHES</a></li>
+                                         <li><a href="#">PHONES &amp; ACCESORIES</a></li>
+                                         <li><a href="#">JEWELRY &amp; WATCHES</a></li>
+                                         <li><a href="#">BAGS &amp; SHOES</a></li>
+                                     </ul>
+                               </div> 
+                                                         
+                            </div>
+                             <div class="image">
+                                   <img src="img.6.jpg" alt="camera">
+                               </div>
+                            </div> 
+                        </div>
+                        
+                        </li>
+                        <li class="next"><a href="#">Men</a> <i class="fas fa-angle-down"></i>
+                        <div class="sub-menu">
+                            <div class="max">
+                                <div class="list">
+                                    <div class="img">
+                                       <h5>WOMENS</h5>
+                                        <img src="img.7.jpg" alt="">
+                                    </div>
+                                      <h5>CATEGORIES</h5>
+                                     <ul class="list-unstyled">
+                                         <li><a href="#">CLOTHS &amp; TROUSERS</a></li>
+                                         <li><a href="#">JEWELRY &amp; WATCHES</a></li>
+                                         <li><a href="#">PHONES &amp; ACCESORIES</a></li>
+                                         <li><a href="#">JEWELRY &amp; WATCHES</a></li>
+                                         <li><a href="#">BAGS &amp; SHOES</a></li>
+                                     </ul>
+                                </div>
+                                    <div class="list">
+                                    <div class="img">
+                                       <h5>WOMENS</h5>
+                                        <img src="img.7.jpg" alt="">
+                                    </div>
+                                      <h5>CATEGORIES</h5>
+                                     <ul class="list-unstyled">
+                                         <li><a href="#">CLOTHS &amp; TROUSERS</a></li>
+                                         <li><a href="#">JEWELRY &amp; WATCHES</a></li>
+                                         <li><a href="#">PHONES &amp; ACCESORIES</a></li>
+                                         <li><a href="#">JEWELRY &amp; WATCHES</a></li>
+                                         <li><a href="#">BAGS &amp; SHOES</a></li>
+                                     </ul>
+                                </div>
+                                    <div class="list">
+                                    <div class="img">
+                                       <h5>WOMENS</h5>
+                                        <img src="img.7.jpg" alt="">
+                                    </div>
+                                      <h5>CATEGORIES</h5>
+                                     <ul class="list-unstyled">
+                                         <li><a href="#">CLOTHS &amp; TROUSERS</a></li>
+                                         <li><a href="#">JEWELRY &amp; WATCHES</a></li>
+                                         <li><a href="#">PHONES &amp; ACCESORIES</a></li>
+                                         <li><a href="#">JEWELRY &amp; WATCHES</a></li>
+                                         <li><a href="#">BAGS &amp; SHOES</a></li>
+                                     </ul>
+                                </div>
+                                    <div class="list">
+                                    <div class="img">
+                                       <h5>WOMENS</h5>
+                                        <img src="img.7.jpg" alt="">
+                                    </div>
+                                      <h5>CATEGORIES</h5>
+                                     <ul class="list-unstyled">
+                                         <li><a href="#">CLOTHS &amp; TROUSERS</a></li>
+                                         <li><a href="#">JEWELRY &amp; WATCHES</a></li>
+                                         <li><a href="#">PHONES &amp; ACCESORIES</a></li>
+                                         <li><a href="#">JEWELRY &amp; WATCHES</a></li>
+                                         <li><a href="#">BAGS &amp; SHOES</a></li>
+                                     </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        </li>
+                        <li><a href="#">SALES</a></li>
+                        <li class="small"><a href="#">PAGES</a> <i class="fas fa-angle-down"></i>
+                        
+                        <ul class="list-unstyled">
+                            <li><a href="../home.html">home</a></li>
+                            <li><a href="#">page</a></li>
+                            <li><a href="#">sales</a></li>
+                            <li><a href="../pages/products/product.html">products</a></li>
+                        </ul>
+                        </li>
+                    </ul>
+                </div>
+                
+             
+                  
+               </div>
+            </div>
+        </div>
+    </nav>
+    
+    <!--End navbar--> 
+    <div class="links">
+    <div class="container">
+        <ul class="list-unstyled">
+            <li><a href="../home.html">Home</a></li> 
+            <li>/</li> 
+            <li><a href="#" class="active">Checkout</a></li>
+        </ul>
+    </div>
+    </div>
+    <!--start order view-->
+    <div class="order">
+        <div class="container">
+            <div class="products-container">
+                <span class="text-center">PRODUCT</span>
+                <span>PRICE</span>
+                <span>QUANTITY</span>
+                <span>TOTAL</span>
+            </div>
+            <div class="product-sub">
+                
+    
+            </div>
+     
+        </div>
+    </div>
+
+    <!--End order view-->
+       <!-- start satisfing -->
+    <div class="our"> 
+         <div class="container">
+         <div class="order">
+            <h2>LATEST ORDER</h2>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>      
+        </div>
+      <div class="back">
+          <div class="alhealth">
+                <!-- Swiper -->
+  <div class="boot-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+          <div class="salah">
+              <img src="img.13.jpg" alt="">
+          </div>
+          <div class="nostar">
+              <h3>32.50EGP</h3><span>45.00 EGP</span>
+              <div class="parg">
+                  <span>Product Name</span>
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+              </div>
+          </div>
+       
+      </div>
+      <div class="swiper-slide">
+          <div class="salah">
+              <img src="img.12.jpg" alt="">
+             
+          </div>
+        <div class="nostar">
+              <h3>32.50EGP</h3><span>45.00 EGP</span>
+              <div class="parg">
+                  <span>Product Name</span>
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+              </div>
+          </div>
+        </div>
+      <div class="swiper-slide">
+            <div class="salah">
+              <img src="img.6.jpg" alt="">
+            
+          </div>
+            <div class="nostar">
+              <h3>32.50EGP</h3><span>45.00 EGP</span>
+              <div class="parg">
+                  <span>Product Name</span>
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+              </div>
+          </div>
+      </div>
+      <div class="swiper-slide">
+            <div class="salah">
+              <img src="img.11.jpg" alt="">
+        
+          </div>
+           <div class="nostar">
+              <h3>32.50EGP</h3><span>45.00 EGP</span>
+              <div class="parg">
+                  <span>Product Name</span>
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+              </div>
+          </div>
+      </div>
+      <div class="swiper-slide">
+            <div class="salah">
+              <img src="human.3.jpg" alt="">
+           
+          </div>
+         <div class="nostar">
+              <h3>32.50EGP</h3><span>45.00 EGP</span>
+              <div class="parg">
+                  <span>Product Name</span>
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+              </div>
+          </div>
+      </div>
+      <div class="swiper-slide">
+            <div class="salah">
+              <img src="product.3.jpg" alt="">
+            
+          </div>
+          <div class="nostar">
+              <h3>32.50EGP</h3><span>45.00 EGP</span>
+              <div class="parg">
+                  <span>Product Name</span>
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+              </div>
+          </div>
+      </div>
+      <div class="swiper-slide">
+            <div class="salah">
+              <img src="bag.1.jpg" alt="">
+        
+          </div>
+          <div class="nostar">
+              <h3>32.50EGP</h3><span>45.00 EGP</span>
+              <div class="parg">
+                  <span>Product Name</span>
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+              </div>
+          </div>
+      </div>
+      <div class="swiper-slide">
+            <div class="salah">
+              <img src="human.9.jpg" alt="">
+             
+          </div>
+             <div class="nostar">
+              <h3>32.50EGP</h3><span>45.00 EGP</span>
+              </div>
+              <div class="parg">
+                  <span>Product Name</span>
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+              </div>
+          
+      </div>
+      <div class="swiper-slide">
+            <div class="salah">
+              <img src="woman.3.jpg" alt="">
+        
+          </div>
+           <div class="nostar">
+              <h3>32.50EGP</h3><span>45.00 EGP</span>
+              <div class="parg">
+                  <span>Product Name</span>
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+              </div>
+          </div>
+      </div>
+    </div>
+   
+
+   
+  </div>
+          </div>
+      </div>
+    
+       </div>
+    </div>
+    <!-- End satisfing -->
+    <!--start saved item-->
+    <div class="saved">
+        <div class="container">
+            <div class="aa">
+                <h5>YOUR SAVED ITEM</h5>
+                <span></span>
+            </div>
+            <div class="row">
+               <div class="contain col-lg-2 col-md-4 col-sm-6">
+                <div class="image-card">
+                    <img src="img.7.jpg" alt="">
+                </div>
+                <h4>32.50EGP</h4>
+                <div class="star">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                </div>
+                <p>product Name</p>
+            </div>
+             <div class="contain col-lg-2 col-md-4 col-sm-6">
+                <div class="image-card">
+                    <img src="img.8.jpg" alt="">
+                </div>
+                <h4>32.50EGP</h4>
+                <div class="star">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                </div>
+                <p>product Name</p>
+            </div>
+               <div class="contain col-lg-2 col-md-4 col-sm-6">
+                <div class="image-card">
+                    <img src="img.9.jpg" alt="">
+                </div>
+                <h4>32.50EGP</h4>
+                <div class="star">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                </div>
+                <p>product Name</p>
+            </div>
+               <div class="contain col-lg-2 col-md-4 col-sm-6">
+                <div class="image-card">
+                    <img src="img.6.jpg" alt="">
+                </div>
+                <h4>32.50EGP</h4>
+                <div class="star">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                </div>
+                <p>product Name</p>
+            </div>
+               <div class="contain col-lg-2 col-md-4 col-sm-6">
+                <div class="image-card">
+                    <img src="img.11.jpg" alt="">
+                </div>
+                <h4>32.50EGP</h4>
+                <div class="star">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                </div>
+                <p>product Name</p>
+            </div>
+               <div class="contain col-lg-2 col-md-4 col-sm-6">
+                <div class="image-card">
+                    <img src="img.12.jpg" alt="">
+                </div>
+                <h4>32.50EGP</h4>
+                <div class="star">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                </div>
+                <p>product Name</p>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!--End saved item-->
+    
+                   <!-- start cotact us-->
+    <div class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                   <div class="customer">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque facilis,  veritatis corporis nam reiciendis!</p>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-google-plus-g"></i>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                   <div class="stay">
+                    <h5>ABOUT US</h5>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia perferendis minima nobis doloremque nihil delectus voluptatem, obcaecati </p>
+                    <i class="fas fa-phone-alt"></i> <span>+20 01127525426</span><br>
+                    <i class="fas fa-envelope "></i><span>mahmoudhwas62@gmail.com</span>
+                    </div>
+                </div>
+                 <div class="col-md-3 col-sm-6">
+                    <div class="stay">
+                        <h5>CUSTOMER SERVICES</h5>
+                        <ul class="list-unstyled">
+                            <li>ABOUT US</li>
+                            <li>SHIPING &amp; RETURN</li>
+                            <li>SHIPING GUIDE</li>
+                            <li>FAQ</li>
+                        </ul>
+                    </div>
+                </div>
+                 <div class="col-md-3 col-sm-6">
+                    <div class="stay">
+                        <h5>STAY CONNECTED</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat </p>
+                        <form action="">
+                            <input type="email" placeholder="Enter Email Address">
+                            <input type="submit" value="JOIN NEWSLATER">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End contact us-->
+    <a href="../../project one/"></a>
+    
+     <script src="jquery-3.5.1.min.js"></script>
+    <script src="../bootstrap/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js" ></script>
+     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+   
+    <script>
+    
+              $(document).ready(function(){
+          $("header .second .ico ul li").on("click",function() {
+              $(this).siblings().removeClass("active");
+        $(this).toggleClass("active");
+    });
+        $(".cart .account ul li").on("click", function() {
+            $(this).siblings().removeClass("active");
+            $(this).toggleClass("active");
+        })
+    
+        $("nav .menu ul li").click(function() {
+            $(this).siblings().removeClass("active");
+            $(this).toggleClass("active");
+            
+        });
+        $(".father .color .i").click(function() {
+            $(".father .color").toggleClass("active");
+        });
+        $(".category .stars .clinet .final").on("click", function() {
+           $(this).toggleClass("active");
+       
+        })
+     
+      
+    }); 
+                     // Initialize Swiper 
+   var three = new Swiper('.boot-container', {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      slidesPerGroup: 3,
+      loop: true,
+      loopFillGroupWithBlank: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+         autoplay: {
+          delay: 2000,
+          disableOnInteraction: false,
+      }
+    
+    });
+    
+    </script>
+      <script src="cart.js"></script>
+</body>
+</html>
